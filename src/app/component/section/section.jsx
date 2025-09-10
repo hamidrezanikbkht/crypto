@@ -139,9 +139,9 @@ export default function Section() {
         </div>
 
         {loading && (
-          <div className="w-full text-center py-6 text-gray-500">
-            در حال بارگذاری داده‌ها...
-          </div>
+         <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
+  <div className="w-24 h-24 rounded-full border-4 border-t-[#1aa089] border-gray-200 animate-spin"></div>
+</div>
         )}
 
         {fetchmarket.map((val, index) => {
