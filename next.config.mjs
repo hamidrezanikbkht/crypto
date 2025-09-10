@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+      reactStrictMode: true, // ✅ این خط رو اضافه کن
+
+};
 
 export default nextConfig;
